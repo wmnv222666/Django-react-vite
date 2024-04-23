@@ -1,0 +1,93 @@
+
+element.style{
+  display:none;
+}
+.all-container{
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+}
+
+.header-flex{
+  display:flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 20px; /* Gap between cards */
+  margin-top: 10%;
+}
+
+.recipe-card {
+  width: 100%; 
+}
+
+.recipe-card img{
+  width:80%;
+  height:250px;
+  border-radius: 25px;
+}
+
+.recipe-listuser img:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.filter-flex{
+  display:flex;
+  justify-content: space-between;
+}
+
+.recipe-link {
+  text-decoration: none; 
+}
+
+.icon-button {
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.icon-button:hover {
+  background-color: #f0f0f0; /* Adjust the background color on hover */
+}
+
+.delete-button {
+  color: #333; /* You can adjust the color */
+}
+
+.edit-button {
+  color:#333; /* You can adjust the color */
+}
+
+.textfield-container .custom-textfield {
+  border-radius: 25px;
+}
+
+
+.custom-button {
+  background-color: #306A09; /* Set button color */
+  color: #fff; /* Set text color */
+  border-radius: 25px; /* Add border radius */
+  padding: 10px 20px; /* Add padding */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.custom-button:hover {
+  background-color: #4CAF50; /* Change button color on hover */
+}
+
+.recipe-listuser{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 20px; /* Gap between cards */
+}
+
